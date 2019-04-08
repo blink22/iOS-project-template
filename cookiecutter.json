@@ -1,0 +1,6 @@
+{
+  "app_name": "Project",
+  "organization_name": "Blink22",
+  "organization_identifier": "com.{{ cookiecutter.organization_name | replace(' ', '-') | lower }}",
+  "bundle_identifier": "{{ cookiecutter.organization_identifier }}.{{ cookiecutter.app_name }}"
+}
