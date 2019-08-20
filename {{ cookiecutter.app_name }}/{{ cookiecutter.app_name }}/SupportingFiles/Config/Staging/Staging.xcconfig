@@ -1,6 +1,6 @@
 //
-//  Production.xcconfig
-//  {{ cookiecutter.app_name }}
+//  Staging.xcconfig
+//  {{ cookiecutter.app_name }} (Staging)
 //
 //  Created by {{ cookiecutter.author }} on {% now 'local', '%d %b %Y' %}.
 //  Copyright © {% now 'local', '%Y' %} {{ cookiecutter.organization_name }}. All rights reserved.
@@ -9,9 +9,9 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-#include "Base.xcconfig"
+#include "../Base.xcconfig"
 
 // App Settings
-ENVIRONMENT = Production
-PRODUCT_NAME = $(BASE_PRODUCT_NAME)
-PRODUCT_BUNDLE_IDENTIFIER = $(BASE_PRODUCT_BUNDLE_IDENTIFIER)
+ENVIRONMENT = Staging
+PRODUCT_NAME = $(BASE_PRODUCT_NAME) $(ENVIRONMENT)
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_PRODUCT_BUNDLE_IDENTIFIER).$(ENVIRONMENT:lower)

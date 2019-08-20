@@ -1,0 +1,14 @@
+//
+//  Development.release.xcconfig
+//  {{ cookiecutter.app_name }}
+//
+//  Created by {{ cookiecutter.author }} on {% now 'local', '%d %b %Y' %}.
+//  Copyright © {% now 'local', '%Y' %} {{ cookiecutter.organization_name }}. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Development.xcconfig"
+#include "../../../../Pods/Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}.release (development).xcconfig"
+#include "../../../../Pods/Target Support Files/Pods-{{ cookiecutter.app_name }}Tests/Pods-{{ cookiecutter.app_name }}Tests.release (development).xcconfig"
+#include "../../../../Pods/Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.release (development).xcconfig"

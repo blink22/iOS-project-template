@@ -9,7 +9,7 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-#include "Base.xcconfig"
+#include "../Base.xcconfig"
 
 // App Settings
 ENVIRONMENT = Development
