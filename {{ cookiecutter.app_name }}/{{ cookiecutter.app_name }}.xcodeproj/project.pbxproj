@@ -15,6 +15,7 @@
 		3276F767225B76E500A59503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3276F765225B76E500A59503 /* LaunchScreen.storyboard */; };
 		3276F772225B76E500A59503 /* {{ cookiecutter.app_name }}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F771225B76E500A59503 /* {{ cookiecutter.app_name }}Tests.swift */; };
 		3276F77D225B76E500A59503 /* {{ cookiecutter.app_name }}UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F77C225B76E500A59503 /* {{ cookiecutter.app_name }}UITests.swift */; };
+		3276F7A1225BA96500A59503 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F7A0225BA96500A59503 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3276F778225B76E500A59503 /* {{ cookiecutter.app_name }}UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.app_name }}UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3276F77C225B76E500A59503 /* {{ cookiecutter.app_name }}UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "{{ cookiecutter.app_name }}UITests.swift"; sourceTree = "<group>"; };
 		3276F77E225B76E500A59503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3276F7A0225BA96500A59503 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32716F68225CA10E00A0836A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		32716F69225CA73000A0836A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		32716F6A225CA73F00A0836A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		3276F74D225B76E400A59503 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +122,10 @@
 		3276F758225B76E400A59503 /* {{ cookiecutter.app_name }} */ = {
 			isa = PBXGroup;
 			children = (
-				3276F759225B76E400A59503 /* AppDelegate.swift */,
-				3276F75B225B76E400A59503 /* ViewController.swift */,
-				3276F75D225B76E400A59503 /* Main.storyboard */,
-				3276F763225B76E500A59503 /* Assets.xcassets */,
-				3276F765225B76E500A59503 /* LaunchScreen.storyboard */,
-				3276F768225B76E500A59503 /* Info.plist */,
+				3276F78B225B9AA000A59503 /* Classes */,
+				3276F7A3225BA9DC00A59503 /* Storyboards */,
+				3276F78A225B9A9700A59503 /* Resources */,
+				3276F7A4225BADD500A59503 /* SupportingFiles */,
 				3276F760225B76E400A59503 /* {{ cookiecutter.app_name }}.xcdatamodeld */,
 			);
 			path = "{{ cookiecutter.app_name }}";
@@ -126,6 +147,108 @@
 				3276F77E225B76E500A59503 /* Info.plist */,
 			);
 			path = "{{ cookiecutter.app_name }}UITests";
+			sourceTree = "<group>";
+		};
+		3276F78A225B9A9700A59503 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3276F7A6225BAF0200A59503 /* Localization */,
+				3276F7A5225BAE7E00A59503 /* Fonts */,
+				3276F763225B76E500A59503 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3276F78B225B9AA000A59503 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3276F792225BA21200A59503 /* Controllers */,
+				3276F78F225B9C0300A59503 /* Services */,
+				3276F78E225B9BF700A59503 /* Views */,
+				3276F78D225B9B8500A59503 /* Models */,
+				3276F78C225B9B3000A59503 /* Common */,
+				3276F759225B76E400A59503 /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3276F78C225B9B3000A59503 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				32716F68225CA10E00A0836A /* Extensions */,
+				3276F793225BA72A00A59503 /* Utilities */,
+				3276F7A0225BA96500A59503 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3276F78D225B9B8500A59503 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3276F78E225B9BF700A59503 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3276F78F225B9C0300A59503 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				32716F69225CA73000A0836A /* Data */,
+				32716F6A225CA73F00A0836A /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3276F792225BA21200A59503 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3276F75B225B76E400A59503 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3276F793225BA72A00A59503 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3276F7A3225BA9DC00A59503 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3276F75D225B76E400A59503 /* Main.storyboard */,
+				3276F765225B76E500A59503 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3276F7A4225BADD500A59503 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3276F768225B76E500A59503 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3276F7A5225BAE7E00A59503 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3276F7A6225BAF0200A59503 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +385,7 @@
 				3276F75C225B76E400A59503 /* ViewController.swift in Sources */,
 				3276F762225B76E400A59503 /* {{ cookiecutter.app_name }}.xcdatamodeld in Sources */,
 				3276F75A225B76E400A59503 /* AppDelegate.swift in Sources */,
+				3276F7A1225BA96500A59503 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +561,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "{{ cookiecutter.app_name }}/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/{{ cookiecutter.app_name }}/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +578,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "{{ cookiecutter.app_name }}/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/{{ cookiecutter.app_name }}/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

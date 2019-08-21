@@ -2,8 +2,8 @@
 //  {{ cookiecutter.app_name }}UITests.swift
 //  {{ cookiecutter.app_name }}UITests
 //
-//  Created by Ahmed Abdelmagied on 4/8/19.
-//  Copyright © 2019 Blink22. All rights reserved.
+//  Created by {{ cookiecutter.author }} on {% now 'local', '%d %b %Y' %}.
+//  Copyright © {% now 'local', '%Y' %} {{ cookiecutter.organization_name }}. All rights reserved.
 //
 
 import XCTest
