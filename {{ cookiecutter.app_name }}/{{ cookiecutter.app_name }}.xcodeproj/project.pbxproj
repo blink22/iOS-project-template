@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		265D32BBDEC29019176B05F3 /* Pods_{{ cookiecutter.app_name }}UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774E0F5EFF74BF38BA9F7954 /* Pods_{{ cookiecutter.app_name }}UITests.framework */; };
+		19DB052D52FEF2675A4D76E1 /* Pods_{{ cookiecutter.app_name }}UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2789247A2A664BC35FAFDAC /* Pods_{{ cookiecutter.app_name }}UITests.framework */; };
 		3261BA652312FE570028E98E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3261BA642312FE570028E98E /* Colors.xcassets */; };
+		3261BA69231300EB0028E98E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3261BA68231300EB0028E98E /* .swiftlint.yml */; };
 		32736E01230E9FEB00DDE479 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32736E03230E9FEB00DDE479 /* Localizable.strings */; };
 		32736E08230EAA0900DDE479 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32736E07230EAA0900DDE479 /* R.generated.swift */; };
 		3276F75A225B76E400A59503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F759225B76E400A59503 /* AppDelegate.swift */; };
@@ -30,8 +31,8 @@
 		32DC2FA22260154500B28E5E /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 32DC2F9E2260154500B28E5E /* Production.xcconfig */; };
 		32DC2FA32260154500B28E5E /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 32DC2F9F2260154500B28E5E /* Development.xcconfig */; };
 		32E49B7C230D34F600DAA757 /* Development.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 32E49B7B230D34F600DAA757 /* Development.debug.xcconfig */; };
-		B249EFA2AD5D067378CB0355 /* Pods_{{ cookiecutter.app_name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718DBB251D0E9AFCE9B45692 /* Pods_{{ cookiecutter.app_name }}.framework */; };
-		E9D7479AE64B22236CF5BF42 /* Pods_{{ cookiecutter.app_name }}Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637FBE19CF6289A0139CAF60 /* Pods_{{ cookiecutter.app_name }}Tests.framework */; };
+		522F329F59A38171F5B2B8E3 /* Pods_{{ cookiecutter.app_name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74477ECD235E548C56C49FDD /* Pods_{{ cookiecutter.app_name }}.framework */; };
+		D35EB50F811C4BF23D9C4AB2 /* Pods_{{ cookiecutter.app_name }}Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB98E98EC17D4BFA7BF36EF /* Pods_{{ cookiecutter.app_name }}Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		21FFB81F9B4018E3FC968E9A /* Pods-{{ cookiecutter.app_name }}Tests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}Tests.debug (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}Tests/Pods-{{ cookiecutter.app_name }}Tests.debug (production).xcconfig"; sourceTree = "<group>"; };
 		29CB24C2E02686F1AB2B72CF /* Pods-{{ cookiecutter.app_name }}UITests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}UITests.release (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.release (production).xcconfig"; sourceTree = "<group>"; };
 		3261BA642312FE570028E98E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3261BA68231300EB0028E98E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		32736E02230E9FEB00DDE479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		32736E07230EAA0900DDE479 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		3276F756225B76E400A59503 /* {{ cookiecutter.app_name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{ cookiecutter.app_name }}.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,9 +89,8 @@
 		3F644540AE1B2074745EE300 /* Pods-{{ cookiecutter.app_name }}Tests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}Tests.release (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}Tests/Pods-{{ cookiecutter.app_name }}Tests.release (production).xcconfig"; sourceTree = "<group>"; };
 		4CAEFEE9128F9721BD703F00 /* Pods-{{ cookiecutter.app_name }}.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}.release (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}.release (production).xcconfig"; sourceTree = "<group>"; };
 		5FA9731AA28E3FDB0B5DFBA8 /* Pods-{{ cookiecutter.app_name }}UITests.release (staging).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}UITests.release (staging).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.release (staging).xcconfig"; sourceTree = "<group>"; };
-		637FBE19CF6289A0139CAF60 /* Pods_{{ cookiecutter.app_name }}Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_{{ cookiecutter.app_name }}Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		718DBB251D0E9AFCE9B45692 /* Pods_{{ cookiecutter.app_name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_{{ cookiecutter.app_name }}.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		774E0F5EFF74BF38BA9F7954 /* Pods_{{ cookiecutter.app_name }}UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_{{ cookiecutter.app_name }}UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB98E98EC17D4BFA7BF36EF /* Pods_{{ cookiecutter.app_name }}Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_{{ cookiecutter.app_name }}Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74477ECD235E548C56C49FDD /* Pods_{{ cookiecutter.app_name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_{{ cookiecutter.app_name }}.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E614867D158F7101A1565FA /* Pods-{{ cookiecutter.app_name }}.release (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}.release (development).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}.release (development).xcconfig"; sourceTree = "<group>"; };
 		8858CFED84031942F8D2AFD2 /* Pods-{{ cookiecutter.app_name }}.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}.debug (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}.debug (production).xcconfig"; sourceTree = "<group>"; };
 		93826528BCFDC705ADEC2638 /* Pods-{{ cookiecutter.app_name }}UITests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}UITests.debug (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.debug (production).xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		9DD3D5FC2ACA4E328836C66A /* Pods-{{ cookiecutter.app_name }}Tests.debug (staging).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}Tests.debug (staging).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}Tests/Pods-{{ cookiecutter.app_name }}Tests.debug (staging).xcconfig"; sourceTree = "<group>"; };
 		A2E7A5E471CDF6847CDA8360 /* Pods-{{ cookiecutter.app_name }}.debug (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}.debug (development).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}.debug (development).xcconfig"; sourceTree = "<group>"; };
 		A9018D434C23FB085C075162 /* Pods-{{ cookiecutter.app_name }}UITests.release (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}UITests.release (development).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.release (development).xcconfig"; sourceTree = "<group>"; };
+		B2789247A2A664BC35FAFDAC /* Pods_{{ cookiecutter.app_name }}UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_{{ cookiecutter.app_name }}UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB7314992E70D48F3F5B0C9 /* Pods-{{ cookiecutter.app_name }}.debug (staging).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}.debug (staging).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}.debug (staging).xcconfig"; sourceTree = "<group>"; };
 		CDF26AAE92ED4BA508AE0934 /* Pods-{{ cookiecutter.app_name }}UITests.debug (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}UITests.debug (development).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.debug (development).xcconfig"; sourceTree = "<group>"; };
 		DCB453A998609AAEE88E91BB /* Pods-{{ cookiecutter.app_name }}Tests.release (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}Tests.release (development).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}Tests/Pods-{{ cookiecutter.app_name }}Tests.release (development).xcconfig"; sourceTree = "<group>"; };
@@ -108,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B249EFA2AD5D067378CB0355 /* Pods_{{ cookiecutter.app_name }}.framework in Frameworks */,
+				522F329F59A38171F5B2B8E3 /* Pods_{{ cookiecutter.app_name }}.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D7479AE64B22236CF5BF42 /* Pods_{{ cookiecutter.app_name }}Tests.framework in Frameworks */,
+				D35EB50F811C4BF23D9C4AB2 /* Pods_{{ cookiecutter.app_name }}Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				265D32BBDEC29019176B05F3 /* Pods_{{ cookiecutter.app_name }}UITests.framework in Frameworks */,
+				19DB052D52FEF2675A4D76E1 /* Pods_{{ cookiecutter.app_name }}UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +136,9 @@
 		1A8BA12E433EC80994B96453 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				718DBB251D0E9AFCE9B45692 /* Pods_{{ cookiecutter.app_name }}.framework */,
-				637FBE19CF6289A0139CAF60 /* Pods_{{ cookiecutter.app_name }}Tests.framework */,
-				774E0F5EFF74BF38BA9F7954 /* Pods_{{ cookiecutter.app_name }}UITests.framework */,
+				74477ECD235E548C56C49FDD /* Pods_{{ cookiecutter.app_name }}.framework */,
+				6BB98E98EC17D4BFA7BF36EF /* Pods_{{ cookiecutter.app_name }}Tests.framework */,
+				B2789247A2A664BC35FAFDAC /* Pods_{{ cookiecutter.app_name }}UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -309,6 +311,7 @@
 			children = (
 				32DC2F9B2260151400B28E5E /* Config */,
 				3276F768225B76E500A59503 /* Info.plist */,
+				3261BA68231300EB0028E98E /* .swiftlint.yml */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			buildPhases = (
 				74E70276248F113DDF509A8A /* [CP] Check Pods Manifest.lock */,
 				32928DBD230DA91400EB4E3C /* R.swift */,
+				3261BA6A2313040C0028E98E /* SwiftLint */,
 				3276F752225B76E400A59503 /* Sources */,
 				3276F753225B76E400A59503 /* Frameworks */,
 				3276F754225B76E400A59503 /* Resources */,
@@ -511,6 +515,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3261BA69231300EB0028E98E /* .swiftlint.yml in Resources */,
 				3261BA652312FE570028E98E /* Colors.xcassets in Resources */,
 				32DC2FA02260154500B28E5E /* Staging.xcconfig in Resources */,
 				329F0B86230CA0A200EF3A5D /* Staging.release.xcconfig in Resources */,
@@ -589,6 +594,24 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		3261BA6A2313040C0028E98E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run SwiftLint\nSTART_DATE=$(date +\"%s\")\n\nSWIFT_LINT=${PODS_ROOT}/SwiftLint/swiftlint\nCONFIG_FILE=$SRCROOT/{{ cookiecutter.app_name }}/SupportingFiles/.swiftlint.yml\n\n# Run SwiftLint for given filename\nrun_swiftlint() {\n    local filename=\"${1}\"\n    if [[ \"${filename##*.}\" == \"swift\" ]]; then\n        ${SWIFT_LINT} lint --config ${CONFIG_FILE} --path \"${filename}\"\n    fi\n}\n\nif [[ -e \"${SWIFT_LINT}\" ]]; then\n    echo \"SwiftLint version: $(${SWIFT_LINT} version)\"\n    # Run for unstaged files\n    git diff --diff-filter=d --name-only | while read filename; do run_swiftlint \"${filename}\"; done\n    # Run for staged files\n    git diff --cached --diff-filter=d --name-only | while read filename; do run_swiftlint \"${filename}\"; done\n    # Run for untracked files\n    git ls-files -o --exclude-standard | while read filename; do run_swiftlint \"${filename}\"; done\nelse\n    echo \"${SWIFT_LINT} is not installed.\"\n    exit 0\nfi\n\nEND_DATE=$(date +\"%s\")\n\nDIFF=$(($END_DATE - $START_DATE))\necho \"SwiftLint took $(($DIFF / 60)) minutes and $(($DIFF % 60)) seconds to complete.\"\n";
 		};
 		32928DBD230DA91400EB4E3C /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
