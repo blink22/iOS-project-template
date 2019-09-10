@@ -7,6 +7,7 @@ target '{{ cookiecutter.app_name }}' do
   use_frameworks!
 
   # Pods for {{ cookiecutter.app_name }}
+  pod 'R.swift'
 
   target '{{ cookiecutter.app_name }}Tests' do
     inherit! :search_paths

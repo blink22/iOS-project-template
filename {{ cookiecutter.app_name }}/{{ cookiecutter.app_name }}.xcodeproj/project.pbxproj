@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		265D32BBDEC29019176B05F3 /* Pods_{{ cookiecutter.app_name }}UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774E0F5EFF74BF38BA9F7954 /* Pods_{{ cookiecutter.app_name }}UITests.framework */; };
+		3261BA652312FE570028E98E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3261BA642312FE570028E98E /* Colors.xcassets */; };
+		32736E01230E9FEB00DDE479 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32736E03230E9FEB00DDE479 /* Localizable.strings */; };
+		32736E08230EAA0900DDE479 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32736E07230EAA0900DDE479 /* R.generated.swift */; };
 		3276F75A225B76E400A59503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F759225B76E400A59503 /* AppDelegate.swift */; };
 		3276F75C225B76E400A59503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F75B225B76E400A59503 /* ViewController.swift */; };
 		3276F75F225B76E400A59503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3276F75D225B76E400A59503 /* Main.storyboard */; };
 		3276F762225B76E400A59503 /* {{ cookiecutter.app_name }}.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3276F760225B76E400A59503 /* {{ cookiecutter.app_name }}.xcdatamodeld */; };
-		3276F764225B76E500A59503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3276F763225B76E500A59503 /* Assets.xcassets */; };
+		3276F764225B76E500A59503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3276F763225B76E500A59503 /* Images.xcassets */; };
 		3276F767225B76E500A59503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3276F765225B76E500A59503 /* LaunchScreen.storyboard */; };
 		3276F772225B76E500A59503 /* {{ cookiecutter.app_name }}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F771225B76E500A59503 /* {{ cookiecutter.app_name }}Tests.swift */; };
 		3276F77D225B76E500A59503 /* {{ cookiecutter.app_name }}UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276F77C225B76E500A59503 /* {{ cookiecutter.app_name }}UITests.swift */; };
@@ -51,12 +54,15 @@
 /* Begin PBXFileReference section */
 		21FFB81F9B4018E3FC968E9A /* Pods-{{ cookiecutter.app_name }}Tests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}Tests.debug (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}Tests/Pods-{{ cookiecutter.app_name }}Tests.debug (production).xcconfig"; sourceTree = "<group>"; };
 		29CB24C2E02686F1AB2B72CF /* Pods-{{ cookiecutter.app_name }}UITests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-{{ cookiecutter.app_name }}UITests.release (production).xcconfig"; path = "Target Support Files/Pods-{{ cookiecutter.app_name }}UITests/Pods-{{ cookiecutter.app_name }}UITests.release (production).xcconfig"; sourceTree = "<group>"; };
+		3261BA642312FE570028E98E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		32736E02230E9FEB00DDE479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		32736E07230EAA0900DDE479 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		3276F756225B76E400A59503 /* {{ cookiecutter.app_name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{ cookiecutter.app_name }}.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3276F759225B76E400A59503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3276F75B225B76E400A59503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3276F75E225B76E400A59503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3276F761225B76E400A59503 /* {{ cookiecutter.app_name }}.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "{{ cookiecutter.app_name }}.xcdatamodel"; sourceTree = "<group>"; };
-		3276F763225B76E500A59503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3276F763225B76E500A59503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3276F766225B76E500A59503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3276F768225B76E500A59503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3276F76D225B76E500A59503 /* {{ cookiecutter.app_name }}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.app_name }}Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +141,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3261BA632312FE400028E98E /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				3261BA642312FE570028E98E /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		32716F68225CA10E00A0836A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,9 +225,11 @@
 		3276F78A225B9A9700A59503 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				32736E07230EAA0900DDE479 /* R.generated.swift */,
+				32928DBE230DAA2700EB4E3C /* Images */,
+				3261BA632312FE400028E98E /* Colors */,
 				3276F7A6225BAF0200A59503 /* Localization */,
 				3276F7A5225BAE7E00A59503 /* Fonts */,
-				3276F763225B76E500A59503 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -307,8 +323,17 @@
 		3276F7A6225BAF0200A59503 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
+				32736E03230E9FEB00DDE479 /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		32928DBE230DAA2700EB4E3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3276F763225B76E500A59503 /* Images.xcassets */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		329F0B7C230C9F1700EF3A5D /* Development */ = {
@@ -385,9 +410,11 @@
 			buildConfigurationList = 3276F781225B76E500A59503 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.app_name }}" */;
 			buildPhases = (
 				74E70276248F113DDF509A8A /* [CP] Check Pods Manifest.lock */,
+				32928DBD230DA91400EB4E3C /* R.swift */,
 				3276F752225B76E400A59503 /* Sources */,
 				3276F753225B76E400A59503 /* Frameworks */,
 				3276F754225B76E400A59503 /* Resources */,
+				F8479784701A50569CD9A745 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -484,6 +511,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3261BA652312FE570028E98E /* Colors.xcassets in Resources */,
 				32DC2FA02260154500B28E5E /* Staging.xcconfig in Resources */,
 				329F0B86230CA0A200EF3A5D /* Staging.release.xcconfig in Resources */,
 				3276F767225B76E500A59503 /* LaunchScreen.storyboard in Resources */,
@@ -491,9 +519,10 @@
 				32E49B7C230D34F600DAA757 /* Development.debug.xcconfig in Resources */,
 				329F0B84230CA07400EF3A5D /* Staging.debug.xcconfig in Resources */,
 				329F0B8A230CA0F100EF3A5D /* Development.release.xcconfig in Resources */,
-				3276F764225B76E500A59503 /* Assets.xcassets in Resources */,
+				3276F764225B76E500A59503 /* Images.xcassets in Resources */,
 				329F0B80230C9F6D00EF3A5D /* Production.debug.xcconfig in Resources */,
 				329F0B82230C9F9E00EF3A5D /* Production.release.xcconfig in Resources */,
+				32736E01230E9FEB00DDE479 /* Localizable.strings in Resources */,
 				3276F75F225B76E400A59503 /* Main.storyboard in Resources */,
 				32DC2FA12260154500B28E5E /* Base.xcconfig in Resources */,
 				32DC2FA22260154500B28E5E /* Production.xcconfig in Resources */,
@@ -561,6 +590,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		32928DBD230DA91400EB4E3C /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(TEMP_DIR)/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/{{ cookiecutter.app_name }}/Resources/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/{{ cookiecutter.app_name }}/Resources/R.generated.swift\"\n";
+		};
 		74E70276248F113DDF509A8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -583,6 +632,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F8479784701A50569CD9A745 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-{{ cookiecutter.app_name }}/Pods-{{ cookiecutter.app_name }}-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -592,6 +658,7 @@
 			files = (
 				3276F75C225B76E400A59503 /* ViewController.swift in Sources */,
 				3276F762225B76E400A59503 /* {{ cookiecutter.app_name }}.xcdatamodeld in Sources */,
+				32736E08230EAA0900DDE479 /* R.generated.swift in Sources */,
 				3276F75A225B76E400A59503 /* AppDelegate.swift in Sources */,
 				3276F7A1225BA96500A59503 /* Constants.swift in Sources */,
 			);
@@ -629,6 +696,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		32736E03230E9FEB00DDE479 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32736E02230E9FEB00DDE479 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		3276F75D225B76E400A59503 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -653,6 +728,7 @@
 			baseConfigurationReference = 329F0B7F230C9F6D00EF3A5D /* Production.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -715,6 +791,7 @@
 			baseConfigurationReference = 329F0B81230C9F9E00EF3A5D /* Production.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -889,6 +966,7 @@
 			baseConfigurationReference = 329F0B83230CA07400EF3A5D /* Staging.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1010,6 +1088,7 @@
 			baseConfigurationReference = 32E49B7B230D34F600DAA757 /* Development.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1131,6 +1210,7 @@
 			baseConfigurationReference = 329F0B89230CA0F100EF3A5D /* Development.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1246,6 +1326,7 @@
 			baseConfigurationReference = 329F0B85230CA0A200EF3A5D /* Staging.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
