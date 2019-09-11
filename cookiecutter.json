@@ -3,5 +3,7 @@
   "organization_name": "Blink22",
   "organization_identifier": "com.{{ cookiecutter.organization_name | replace(' ', '-') | lower }}",
   "bundle_identifier": "{{ cookiecutter.organization_identifier }}.{{ cookiecutter.app_name | replace(' ', '-') | lower }}",
-  "author": "{{ cookiecutter.organization_name }}"
+  "author": "{{ cookiecutter.organization_name }}",
+  "side_menu": ["No", "Yes"],
+  "pager_tab_strip": ["No", "Yes"]
 }

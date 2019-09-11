@@ -10,6 +10,14 @@ target '{{ cookiecutter.app_name }}' do
   pod 'R.swift'
   pod 'SwiftLint'
   
+  {% if cookiecutter.side_menu == "Yes" %}
+    pod 'SideMenu'
+  {% endif %}
+
+  {% if cookiecutter.pager_tab_strip == "Yes" %}
+    pod 'XLPagerTabStrip'
+  {% endif %}
+    
   target '{{ cookiecutter.app_name }}Tests' do
     inherit! :search_paths
     # Pods for testing
