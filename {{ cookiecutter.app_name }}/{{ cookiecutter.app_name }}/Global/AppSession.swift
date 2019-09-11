@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct AppSession {
+    static let config = AppConfig.default
+}
