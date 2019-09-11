@@ -7,21 +7,21 @@ target '{{ cookiecutter.app_name }}' do
   use_frameworks!
 
   # Pods for {{ cookiecutter.app_name }}
-  pod 'R.swift'
-  pod 'SwiftLint'
-  pod 'NVActivityIndicatorView'
-  pod 'Toast-Swift'
-
+  pod 'R.swift', '~> 5.0'
+  pod 'SwiftLint', '~> 0.33.0'
+  pod 'NVActivityIndicatorView', '= 4.6.1'
+  pod 'Toast-Swift', '~> 4.0'
+  
   {% if cookiecutter.side_menu == "Yes" %}
-    pod 'SideMenu'
+    pod 'SideMenu', '~> 5.0'
   {% endif %}
 
   {% if cookiecutter.pager_tab_strip == "Yes" %}
-    pod 'XLPagerTabStrip'
+    pod 'XLPagerTabStrip', '~>8.1'
   {% endif %}
   
   {% if cookiecutter.cosmos == "Yes" %}
-    pod 'Cosmos'
+    pod 'Cosmos', '~> 18.0'
   {% endif %}
   
   target '{{ cookiecutter.app_name }}Tests' do
