@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4EEE25232925E900CA3F51 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EEE24232925E900CA3F51 /* HomePresenter.swift */; };
+		0C4EEE272329260400CA3F51 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EEE262329260400CA3F51 /* HomeProtocol.swift */; };
+		0C4EEE292329269300CA3F51 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EEE282329269300CA3F51 /* HomeInteractor.swift */; };
+		0C4EEE2B2329274400CA3F51 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EEE2A2329274400CA3F51 /* HomeWireframe.swift */; };
 		0CEB7AC0232818AD0036A92C /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7ABF232818AD0036A92C /* AppConfig.swift */; };
 		0CEB7ACA23281DE00036A92C /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7AC923281DE00036A92C /* AppSession.swift */; };
 		0CEB7AD623282AC90036A92C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEB7AD523282AC90036A92C /* HomeViewController.swift */; };
@@ -54,6 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4EEE24232925E900CA3F51 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		0C4EEE262329260400CA3F51 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		0C4EEE282329269300CA3F51 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		0C4EEE2A2329274400CA3F51 /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
 		0CEB7ABF232818AD0036A92C /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		0CEB7AC923281DE00036A92C /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
 		0CEB7AD523282AC90036A92C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -160,12 +168,12 @@
 		0CEB7AC123281AD40036A92C /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				0CEB7AD323282A2C0036A92C /* Views */,
+				0CEB7AC323281AF50036A92C /* Entities */,
+				0CEB7AC423281B000036A92C /* Interactor */,
+				0CEB7AC523281B0B0036A92C /* Presenter */,
 				0CEB7AC723281BD50036A92C /* Protocol */,
 				0CEB7AC623281B1B0036A92C /* Storyboard */,
-				0CEB7AC523281B0B0036A92C /* Presenter */,
-				0CEB7AC423281B000036A92C /* Interactor */,
-				0CEB7AC323281AF50036A92C /* Entities */,
+				0CEB7AD323282A2C0036A92C /* Views */,
 				0CEB7AC223281AE20036A92C /* WireFrame */,
 			);
 			path = Home;
@@ -174,6 +182,7 @@
 		0CEB7AC223281AE20036A92C /* WireFrame */ = {
 			isa = PBXGroup;
 			children = (
+				0C4EEE2A2329274400CA3F51 /* HomeWireframe.swift */,
 			);
 			path = WireFrame;
 			sourceTree = "<group>";
@@ -188,6 +197,7 @@
 		0CEB7AC423281B000036A92C /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				0C4EEE282329269300CA3F51 /* HomeInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -195,6 +205,7 @@
 		0CEB7AC523281B0B0036A92C /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				0C4EEE24232925E900CA3F51 /* HomePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 		0CEB7AC723281BD50036A92C /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				0C4EEE262329260400CA3F51 /* HomeProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -762,10 +774,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4EEE272329260400CA3F51 /* HomeProtocol.swift in Sources */,
+				0C4EEE25232925E900CA3F51 /* HomePresenter.swift in Sources */,
 				0CEB7ACA23281DE00036A92C /* AppSession.swift in Sources */,
+				0C4EEE2B2329274400CA3F51 /* HomeWireframe.swift in Sources */,
 				32736E08230EAA0900DDE479 /* R.generated.swift in Sources */,
 				3276F75A225B76E400A59503 /* AppDelegate.swift in Sources */,
 				3276F7A1225BA96500A59503 /* Constants.swift in Sources */,
+				0C4EEE292329269300CA3F51 /* HomeInteractor.swift in Sources */,
 				0CEB7AC0232818AD0036A92C /* AppConfig.swift in Sources */,
 				0CEB7AD623282AC90036A92C /* HomeViewController.swift in Sources */,
 			);

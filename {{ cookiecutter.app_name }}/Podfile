@@ -12,15 +12,12 @@ target '{{ cookiecutter.app_name }}' do
   pod 'NVActivityIndicatorView', '= 4.6.1'
   pod 'Toast-Swift', '~> 4.0'
   pod 'Alamofire', '= 4.8.2'
-  
   {% if cookiecutter.side_menu == "Yes" %}
     pod 'SideMenu', '~> 5.0'
   {% endif %}
-
   {% if cookiecutter.pager_tab_strip == "Yes" %}
     pod 'XLPagerTabStrip', '~>8.1'
   {% endif %}
-  
   {% if cookiecutter.cosmos == "Yes" %}
     pod 'Cosmos', '~> 18.0'
   {% endif %}
